@@ -20,6 +20,7 @@
 
 # The name of your vault, e.g., "Knowledge Base"
 VAULT_NAME=""
+STAMP=$(date +"%H:%M")
 
 if [ -z "$VAULT_NAME" ]
 then
@@ -27,4 +28,4 @@ then
   exit 1
 fi
 
-open "obsidian://advanced-uri?vault=$VAULT_NAME&daily=true&data=${1}&mode=prepend"
+open "obsidian://advanced-uri?vault=$VAULT_NAME&daily=true&data=-%2520$STAMP%2520${1}&mode=prepend"

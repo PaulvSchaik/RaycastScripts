@@ -18,7 +18,7 @@
 # @raycast.author Paul van Schaik
 # @raycast.authorURL https://github.com/PaulvSchaik
 
-# The name of your vault, e.g., "Knowledge Base"
+# The name of your vault, e.g., "Obsidian Vault"
 VAULT_NAME=""
 STAMP=$(date +"%H:%M")
 
